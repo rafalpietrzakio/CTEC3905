@@ -1,0 +1,43 @@
+
+body {
+  flex-wrap: wrap;
+  margin:0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #C22123;
+  width: 15vw;
+  box-sizing: border-box;
+  padding:10px;
+}
+
+nav a {
+  background-color: #B22123;
+  color: #000;
+  padding: 10px;
+  margin: 0px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+
+nav a:hover {
+  background-color: #E22123;
+}
+
+header, main, section {
+  overflow: auto;
+}
+
+section {
+  margin:0;
+  padding:10px;
+  width:85vw;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
